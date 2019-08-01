@@ -1,0 +1,43 @@
+.sidenav {
+			height: 89%;
+			width: 0;
+			position:fixed;
+			z-index: 1;
+			left: 0;
+			bottom: 1%;
+			background-color: #343a40;
+			overflow-x: hidden;
+			transition: 0.5s;
+			padding-top: 50px;
+		}
+
+		.sidenav a {
+			padding: 8px 8px 8px 20px;
+			text-decoration: none;
+			font-size: 16px;
+			
+			display: block;
+			transition: 0.3s;
+		}
+		.ql{
+			color: white;
+		}
+
+		.sidenav a:hover {
+			color: blue;
+		}
+
+		.sidenav .closebtn {
+			position: absolute;
+			top: 0;
+			right: 25px;
+			font-size: 36px;
+			margin-left: 50px;
+		}
+		.dropdown-item{
+			height: 15px;
+		}
+
+		@media screen and (max-height: 450px) {
+			.sidenav {padding-top: 15px;}
+			.sidenav a {font-size: 18px;}

@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	/*font-family: 'Geostar Fill', cursive;*/
+	width: 100%;
+	height: auto;
+	/*background:#e0e0d1;  
+	background: -webkit-linear-gradient(to left,#e0e0d1,#a2a276);  
+	background: linear-gradient(to left,#e0e0d1,#a2a276);*/
+}
+
+#content{
+	width: 90%;
+	margin: 3% 5%;
+	padding: 1%;
+	text-align: center;
+	background-color: white;
+}
+
+.btn-mxh {
+	z-index: 10000;
+	display: block;
+	height: 250px;
+	position: fixed;
+	width: 50px;
+	bottom: 50px;
+	left: 10px;
+	color: #FFF;
+	font-weight: 700;
+	font-size: 125%;
+	border-radius: 25px;
+}
+.btn-mxh a em{
+	position: relative;
+	border: black thin solid;
+	color: black;
+	font-size: 30px;
+	width: 50px;
+	height: 50px;
+	border-radius: 80px;
+	margin: auto;
+	margin-top: 5%;
+	bottom: 50px;
+}
+.btn-mxh a em:before {
+	position: absolute;
+	top: 5px;
+	left: 8px;
+	padding: 5%;
+}
+.btn-mxh a em:hover{
+	background: black;
+	color: white;
+}
+.fa-phone:before {
+	content: "\f095";
+}
+@keyframes my { 
+	0% { color: #F8CD0A;  } 
+	50% { color: #fff;  }
+	100% { color: #F8CD0A;  } 
+}
+.mxh {
+	font-weight:bold;
+	-webkit-animation: my 700ms infinite;
+	-moz-transition: my 700ms infinite;
+}

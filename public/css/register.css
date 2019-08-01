@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(http://vietcetera.com/wp-content/uploads/2018/07/Bitis_Hunter_Featured.jpg);
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.register{
+  	border-radius: 10px;
+	background: white;
+	padding: 30px;
+	margin: 5% 25%;
+	width: 55%;
+	height: auto;
+	opacity: 0.9;
+}
+.register>h2{
+	text-align: center;
+}
+
+.register>img{
+  width: 20%;
+  margin-left:35%;
+}
